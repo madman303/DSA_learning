@@ -1,0 +1,23 @@
+# 构建产物（用 make 可随时重新生成，不要提交到 Git）
+*.o
+*.so
+*.a
+*.d
+*.out
+
+# 可执行文件（无扩展名，与源文件同名的那些）
+cproject/run_test
+cproject/test/run_test
+l01/01_pointer_basics
+l01/02_struct_align
+l01/03_dynamic_array
+l01/04_struct_dynamic
+l01/05_timing_fib
+l01/06_optimization_trap
+l01/03_asan
+l01/04_asan
+l01/06_O0
+l01/06_O2
+
+# 临时目录
+build/
